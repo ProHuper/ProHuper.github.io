@@ -35,7 +35,7 @@ class Solution {
       	int from = left, to = right;
         while(from <= to){
             if(s.charAt(from) == s.charAt(to)){
-				from++;
+		from++;
               	to--;
             }
           	else return s.substring(from-1,to);
@@ -48,6 +48,7 @@ class Solution {
 # 动态规划
 
 本题的动规划分子问题是：
+
 $$
 \begin{equation}
 dp[i,j]=
@@ -57,9 +58,11 @@ dp[i,j]=
    \end{cases}
   \end{equation}
 $$
+
 其中$dp[i][j]$保存的是当前字符串是否为回文串其成立条件是$dp[i+1][j-1]$和$str[i]=str[j]$，否则当前下标对应的字符串不是回文串。
 
 当然还有一种直接保存回文串长度的dp思想：
+
 $$
 \begin{equation}
 dp[i,j]=max
@@ -70,6 +73,7 @@ dp[i,j]=max
    \end{cases}
   \end{equation}
 $$
+
 ***这里安利一款MD的编辑器--[Typora](https://www.typora.io/)，优雅纯净轻量（看起来就是个TXT编辑器），使用编辑后渲染模式（不同于一般MD编辑器的左编辑右渲染模式），支持Tax公式语法。趁免费赶紧下一波。***
 
 DP的时间复杂度是$O(n^2)$，只减少了一层循环（也就是暴力法里用来检验匹配的循环，这是时候是直接从dp数组里fetch），由于前后需要前后两个指针，dp数组自然是二维的。代码如下：
