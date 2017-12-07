@@ -3,6 +3,7 @@ layout:     post
 title:      "LeetCode 05 最长回文子串"
 subtitle:   "四种方法求解回文子串"
 date:       2017-12-6 12:00:00
+header-img: "img/timg.jpg"
 author:     "Huper"
 tags:
     - 算法
@@ -59,9 +60,7 @@ dp[i,j]=
   \end{equation}
 $$
 
-其中\\(dp[i][j]\\)保存的是当前字符串是否为回文串其成立条件是\\(dp[i+1][j-1]==1\\)和\\(str[i]==str[j]\\)，否则当前下标对应的字符串不是回文串。
-
-当然还有一种直接保存回文串长度的dp思想：
+其中\\(dp[i][j]\\)保存的是当前字符串是否为回文串其成立条件是\\(dp[i+1][j-1]==1\\)和\\(str[i]==str[j]\\)，否则当前下标对应的字符串不是回文串。当然还有一种直接保存回文串长度的dp思想：
 
 $$
 \begin{equation}
