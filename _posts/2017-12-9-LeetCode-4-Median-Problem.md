@@ -1,6 +1,7 @@
 ---
 layout:     post
-title:      "LeetCode-4-Median-Problem"
+title:      "LeetCode 04 中位数问题"
+subtitle:   "限定复杂度求解两个数组的中位数"
 date:       2017-12-9 17:00:00
 author:     "Huper"
 tags:
