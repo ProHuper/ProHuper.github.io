@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "java反射机制和AOP动态代理模式"
+title:      "java的反射机制和AOP"
 subtitle:   "简单介绍一下动态代理模式"
 date:       2017-12-7 17:00:00
 author:     "Huper"
