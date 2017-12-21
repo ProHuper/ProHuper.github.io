@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "python学习笔记 IO"
+title:      "python学习笔记 05 IO"
 date:       2017-12-15 15:00:00
 author:     "Huper"
 tags:
