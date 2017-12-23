@@ -2,7 +2,7 @@
 layout:     post
 title:      "数据挖掘十大算法 SVM"
 subtitle:   "用python实现支持向量机分类"
-date:       2017-12-20 20:00:00
+date:       2017-12-23 20:00:00
 author:     "Huper"
 tags:
     数据挖掘&机器学习
