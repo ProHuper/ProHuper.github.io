@@ -40,7 +40,7 @@ tags:
 
 基础算法：这块以前上课的时候我都有做详细的笔记，所以基本就是把笔记重新整理了一下。我把常用的模型公式都自己重新推导了一下，机器学习这块比较重点的模型我觉得有`LR`，`SVM`，`图模型` ,`PCA和SVD`，`Adaboost`，`GBDT和XGboost` 等等，最好都能重推一下公式，至少要对他们的大体流程比较熟悉。然后深度学习这块就是`CNN`，`RNN`，`LSTM`等基础结构和原理，`BP`和`BPTT`的原理，其他的比如各种优化方法，各种激活函数的优缺点等等。下图就是我自己的总结，大概一周内完成：
 
-![P0HJSHRLSBXPH2`$M8G2IY1](E:\GitWarehouse\ProHuper.github.io\img\in-post\P0HJSHRLSBXPH2`$M8G2IY1.png)
+![P0HJSHRLSBXPH2`$M8G2IY1](/img/in-post/P0HJSHRLSBXPH2`$M8G2IY1.png)
 
 coding：刷题就行了，一定要白板刷题，不用IDE培养自己写bug free的code（很重要）。同时一定要掌握常用的算法和数据结构并能准确的分析算法的时空复杂度。就算刷题了，面试的时候也有很大可能被问到一个你从来没见过的问题，这时候不要一个人埋头苦想，一定要多和面试官交流，获得点提示什么的，先弄出来个复杂度爆炸的算法也没关系，可以慢慢优化。
 
